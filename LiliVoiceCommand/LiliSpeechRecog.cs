@@ -20,7 +20,7 @@ namespace SpeechRecognitionApp
                 new System.Globalization.CultureInfo("en-US"));
             {
 
-                // Create a grammar for finding services in different cities.
+                // Create a grammar for different commands.
                 Choices gestures = new Choices(new string[] { "Lily", "Move right", "Move left", "Follow me", "Stop", "Goodbye" });
 
                 GrammarBuilder giveCommands = new GrammarBuilder(gestures);
