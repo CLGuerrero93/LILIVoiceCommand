@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Microsoft.Speech must be added to References before compilation
+using System;
 using System.Collections;
 using Microsoft.Speech.Recognition;
 
@@ -16,7 +17,7 @@ namespace SpeechRecognitionApp
             // Create a SpeechRecognitionEngine object for the default recognizer in the en-US locale.
             SpeechRecognitionEngine recognizer =
               new SpeechRecognitionEngine(
-                new System.Globalization.CultureInfo("en-US");
+                new System.Globalization.CultureInfo("en-US"));
             {
 
                 // Create a grammar for finding services in different cities.
