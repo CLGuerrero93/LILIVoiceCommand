@@ -1,0 +1,6 @@
+C:\Users\Vader\documents\visual studio 2010\Projects\LiliVoiceCommand\LiliVoiceCommand\bin\Debug\LiliVoiceCommand.dll
+C:\Users\Vader\documents\visual studio 2010\Projects\LiliVoiceCommand\LiliVoiceCommand\bin\Debug\LiliVoiceCommand.pdb
+C:\Users\Vader\documents\visual studio 2010\Projects\LiliVoiceCommand\LiliVoiceCommand\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Vader\documents\visual studio 2010\Projects\LiliVoiceCommand\LiliVoiceCommand\obj\Debug\LiliVoiceCommand.dll
+C:\Users\Vader\documents\visual studio 2010\Projects\LiliVoiceCommand\LiliVoiceCommand\obj\Debug\LiliVoiceCommand.pdb
+C:\Users\Vader\documents\visual studio 2010\Projects\LiliVoiceCommand\LiliVoiceCommand\obj\Debug\LiliVoiceCommand.csprojResolveAssemblyReference.cache
