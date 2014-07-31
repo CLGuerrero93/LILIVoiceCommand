@@ -8,7 +8,7 @@ namespace SpeechRecognitionApp
     public class Program
     {
         public Queue qCommands = new Queue();  //Holds the recognized phrase
-        public string[] phrases = new string[] {"Lily", "Move right", "Move left", "Follow me", "Stop", "Goodbye"}; //array of possible phrases
+        public string[] phrases = new string[] {"Lily", "Move right", "Move left", "Follow me", "Stop", "Turn around", "Goodbye"}; //array of possible phrases
         public bool Listening = false; //if Speech Recognition is actively listening
         
         // returns the SpeechRecognitionEngine object
@@ -21,7 +21,7 @@ namespace SpeechRecognitionApp
             {
 
                 // Create a grammar for different commands.
-                Choices gestures = new Choices(new string[] { "Lily", "Move right", "Move left", "Follow me", "Stop", "Goodbye" });
+                Choices gestures = new Choices(new string[] { "Lily", "Move right", "Move left", "Follow me", "Stop", "Turn around", "Goodbye" });
 
                 GrammarBuilder giveCommands = new GrammarBuilder(gestures);
 
@@ -52,7 +52,7 @@ namespace SpeechRecognitionApp
         public void recognizedSpeech(object sender, SpeechRecognizedEventArgs e)
         {
             // Find the recognized phrase in the array phrases
-            for (int index = 0; index < 6; index++)
+            for (int index = 0; index < 7; index++)
             {
                 if (0==e.Result.Text.CompareTo(phrases[index]))
                 {
